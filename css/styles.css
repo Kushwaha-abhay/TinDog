@@ -1,0 +1,163 @@
+#title {
+  background-color: #ff4c68;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-bottom: 4.5rem;
+}
+
+.container-fluid {
+  padding: 3% 10% 15%;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 1rem 0 1rem;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3.5em;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+.frow {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.ficon {
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.ficon:hover {
+  color: #ff4c68;
+}
+
+.features-para {
+  color: #8f8f8f;
+}
+
+.rotate {
+  width: 60%;
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  /* Safari and Chrome */
+}
+
+.btn-dwld {
+  margin: 5% 3% 5% 0%
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+.section-heading {
+  text-align: center;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.card {
+  text-align: center;
+}
+
+@media (max-width:1028px) {
+  .rotate {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+.fbtn{
+  margin: 3% 1%;
+}
+.white-section {
+  background-color: #fff;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
